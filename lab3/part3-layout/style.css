@@ -30,6 +30,11 @@ img {
 nav {
   background-color: black;
   padding: 0.5em;
+
+
+  /* Keep navigation at the top while scrolling */
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
