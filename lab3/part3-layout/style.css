@@ -36,6 +36,11 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
+
+   /* Display navigation items in a row with even spacing */
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
