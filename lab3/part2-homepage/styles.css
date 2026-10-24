@@ -49,3 +49,26 @@ h2 {
 }
 
 
+/* General text styling */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+
+p,
+li {
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
