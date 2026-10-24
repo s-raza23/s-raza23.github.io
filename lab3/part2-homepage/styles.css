@@ -72,3 +72,27 @@ li {
   line-height: 1.6;
   letter-spacing: 0.5px;
 }
+
+
+/* Link styling */
+
+a {
+  outline: none;
+}
+
+a[href*="http"] {
+  padding-right: 16px;
+  background: url("external-link-52.png") no-repeat right center;
+  background-size: 14px 14px;
+}
+
+a:link,
+a:visited {
+  color: #aa6666;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: #773333;
+}
