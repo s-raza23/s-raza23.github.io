@@ -112,3 +112,40 @@ ul {
 ol {
   list-style-type: lower-roman;
 }
+
+
+/* Navigation menu styling */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a {
+  font-family: "Bevan", serif;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 1px solid #aa6666;
+}
+
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background: #aa6666;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
