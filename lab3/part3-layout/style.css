@@ -62,4 +62,9 @@ nav a {
 
 .feature {
   width: 200px;
+
+
+  /* Wrap article text around the feature image */
+  float: left;
+  margin: 8px 30px 20px 0;
 }
